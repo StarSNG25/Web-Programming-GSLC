@@ -10,15 +10,15 @@
 
 1. Download code/clone the repo
 
- ```sh
- git clone https://github.com/StarSNG25/Web-Programming-Session-5-GSLC.git
- ```
+   ```sh
+   git clone https://github.com/StarSNG25/Web-Programming-Session-5-GSLC.git
+   ```
 
 2. Install packages
 
- ```sh
- composer install
- ```
+   ```sh
+   composer install
+   ```
 
 3. Create .env file by copying over the contents of .env.examples
 
