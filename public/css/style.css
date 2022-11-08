@@ -1,0 +1,49 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+}
+
+.button-text:hover,
+.button-text:focus {
+	opacity: 0.75;
+}
+
+.button-text:active {
+	opacity: 0.9;
+}
+
+.item__container {
+	margin-top: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.plans {
+	padding: 2rem;
+}
+
+.plans__header h1 {
+	font-weight: bolder;
+	padding: 0 1rem;
+	font-size: xx-large;
+}
+
+.plan__price {
+	color: gray;
+	margin-bottom: 2.5rem;
+}
+
+.plan__badge {
+	height: 25rem;
+	width: 25rem;
+	margin-right: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.plan__badge:hover {
+	opacity: 0.9;
+}
