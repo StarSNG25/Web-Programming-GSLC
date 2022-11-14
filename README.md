@@ -11,7 +11,7 @@
 1. Download code/clone the repo
 
    ```sh
-   git clone https://github.com/StarSNG25/Web-Programming-Session-5-GSLC.git
+   git clone https://github.com/StarSNG25/Web-Programming-GSLC.git
    ```
 
 2. Install packages
