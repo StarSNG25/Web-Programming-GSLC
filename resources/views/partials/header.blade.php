@@ -10,7 +10,10 @@
 	</nav>
 	
 	<div class="header__cta">
-		<a class="button button-text" href="#">Sign In</a>
-		<a class="button button-text" href="#">Sign Up</a>
+		<button class="dropdown">Account</button>
+		<div class="account-content">
+			<a class="button button-text" href="#">Sign In</a>
+			<a class="button button-text" href="#">Sign Up</a>
+		</div>
 	</div>
 </header>

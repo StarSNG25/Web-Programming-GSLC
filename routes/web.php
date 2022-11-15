@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PlanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,25 +19,4 @@ Route::get('/', function ()
 	return redirect('/plans');
 });
 
-Route::get('/plans', function()
-{
-	return view('example', [
-		"plans" => [
-			[
-				"id" => "silver",
-				"badge" => "silver_badge.png",
-				"name" => "Silver Plan",
-				"discount" => false,
-				"price" => 99900,
-				"discountPrice" => 49900
-			],
-			[
-				"id" => "gold",
-				"badge" => "gold_badge.png",
-				"name" => "Gold Plan",
-				"discount" => true,
-				"price" => 199900,
-				"discountPrice" => 149900
-			]		]
-	]);
-});
+Route::get('/plans', [PlanController::class, 'plans']);

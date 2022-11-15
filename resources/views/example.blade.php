@@ -19,7 +19,8 @@
 					@if ($plan['discount'])
 						<h2 class="plan__name">{{ $plan['name'] }} (DISCOUNT)</h2>
 						<p class="plan__price"><s>IDR {{ $plan['price'] }}</s> IDR {{ $plan['discountPrice'] }}</p>
-					@elseif (!$plan['discount'])
+{{--				@elseif (!$plan['discount'])--}}
+					@else
 						<h2 class="plan__name">{{ $plan['name'] }}</h2>
 						<p class="plan__price">IDR {{ $plan['price'] }}</p>
 					@endif
